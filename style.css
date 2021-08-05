@@ -1,0 +1,49 @@
+*{
+    font-family: "helvetica";
+    background-color: rgb(240, 222, 222);
+    color: rgb(88, 66, 75);
+    width: 100%;
+}
+
+.parent-main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.child-main{
+    border-color: red;
+    max-width: 500px;
+    margin: auto;
+}
+
+form{
+    max-width: 100%;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+    display: block;
+    background-color: rgb(59, 28, 39);
+    color: white;
+    border-radius: 33px;
+    padding: 1em;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+form button {
+    border-radius: 33px;
+    background-color: rgb(230, 69, 117);
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+    padding: 1em;
+    border-style: none;
+}
