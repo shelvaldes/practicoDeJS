@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 :root{
     --fontsy: 'Comfortaa', cursive;
@@ -92,4 +92,11 @@ form button {
 form input:focus, form button:focus{
     outline: 0;
     box-shadow: 0 0 10px crimson;
+}
+
+#printPrice{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    letter-spacing: -0.3rem;
 }
