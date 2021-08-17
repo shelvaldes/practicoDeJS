@@ -1,12 +1,34 @@
 const lista1 = [
-    100,
-    200,
-    300,
-    1999,
+    1, 2, 3, 4, 2, 3, 4, 2, 2, 2, 2, 1,
 ];
 
+//variables de mediana
 const mitadLista = parseInt(lista1.length / 2);
 let mediana
+
+//objeto de moda
+const listaCount = {};
+
+//moda
+lista1.map(
+    function (elemento){
+        if (listaCount[elemento]){
+            listaCount[elemento] += 1;
+        }else{
+            listaCount[elemento] = 1;
+        }
+        
+    }
+);
+
+const lista1Array = Object.entries(listaCount).sort(
+    function (elementoA, elementoB){
+        return elementoA[1] - elementoB[2];
+    }
+);
+
+const moda = lista1Array[lista1Array.length -1];
+//pendiente crear función
 
 //promedio
 function calcularMediaAritmetica (lista){
