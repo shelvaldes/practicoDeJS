@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calcular el área y perímetro de figuras geométricas populares" />
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Figuras Geométricas</title>
+</head>
+<body>
+    <main>
+        <div class="child-main">
+            <header>
+                <h1>Figuras Geométricas</h1>
+            </header>
+            <p>
+                Todo desarrollador debe empezar por algún lugar. Sólo voy a puntualizar un hecho sumamente importante. Me gustan los gatos.
+            </p>
+            <section>
+                <h2>Calcula el área y perímetro de un cuadrado</h2>
+                <form action="">
+                    <label for="InputCuadrado">Escribe cuánto mide cada lado del cuadrado</label>
+                    <input id="InputCuadrado" type="number" />
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular Área</button>
+                </form>
+            </section>
+            <section>
+                <h2>Calcula el área y perímetro de un triángulo</h2>
+                <form action="" class="form">
+                    <label for="InputTriangulo1">Escribe la medida del lado 1</label>
+                    <input id="InputTriangulo1" type="number" />
+                    <label for="InputTriangulo2">Escribe la medida del lado 2</label>
+                    <input id="InputTriangulo2" type="number" />
+                    <label for="InputTrianguloBase">Escribe la medida de la base</label>
+                    <input id="InputTrianguloBase" type="number" />
+                    <label for="InputTrianguloAltura">Escribe la medida de la altura</label>
+                    <input id="InputTrianguloAltura" type="number" />
+                    <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perímetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    
+    
+    <script src="figuras.js"></script>
+</body>
+</html>
